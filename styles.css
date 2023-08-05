@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    border: #007bff;
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the TO-DO list */
+  #list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the task input and "Add" button */
+  .head {
+    display: flex;
+  }
+  
+  .enter-list {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-list {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-list:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the tasks container */
+  .tasks {
+    margin-top: 20px;
+  }
+  
+  /* Style each task item */
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    flex: 1;
+    margin: 0;
+  }
+  
+  .item-btn {
+    display: flex;
+  }
+  
+  .item-btn i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  .tasks {
+    list-style-type: none;
+  }
+  .strikethrough {
+    text-decoration: line-through;
+}
+  
